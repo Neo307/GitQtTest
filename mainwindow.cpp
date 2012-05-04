@@ -17,3 +17,8 @@ void MainWindow::on_btnTest_clicked()
 {
     qDebug()<<"Button pressed!";
 }
+
+void MainWindow::on_btnNew_clicked()
+{
+
+}
