@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    N = 0;
 }
 
 MainWindow::~MainWindow()
@@ -15,5 +16,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_btnTest_clicked()
 {
-    qDebug()<<"Button pressed!";
+    N++;
+    qDebug()<<"Button pressed"<<N<<"times!";
 }
