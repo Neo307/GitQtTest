@@ -25,6 +25,7 @@ void MainWindow::on_btnTest_clicked()
 
 void MainWindow::on_btnNew_clicked()
 {
-    double x = sin(3.14);
+    double x = 3.14;
+    x = F(x);
     qDebug()<<"x:"<<x;
 }
