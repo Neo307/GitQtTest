@@ -15,5 +15,5 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_btnTest_clicked()
 {
-
+    qDebug()<<"Button pressed!";
 }
