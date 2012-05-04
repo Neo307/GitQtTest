@@ -16,7 +16,7 @@ MainWindow::~MainWindow()
 
 double MainWindow::F(double x)
 {
-    return sin(x);
+    return abs(sin(x));
 }
 
 void MainWindow::on_btnTest_clicked()
