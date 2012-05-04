@@ -27,6 +27,19 @@
      <string>Test</string>
     </property>
    </widget>
+   <widget class="QPushButton" name="btnNew">
+    <property name="geometry">
+     <rect>
+      <x>254</x>
+      <y>10</y>
+      <width>121</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>New button</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menuBar">
    <property name="geometry">
