@@ -23,6 +23,8 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+    double F(double x);
 };
 
 #endif // MAINWINDOW_H
